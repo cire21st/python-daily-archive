@@ -1,4 +1,4 @@
-# https://school.programmers.co.kr/learn/courses/30/lessons/12909#
+# https://school.programmers.co.kr/learn/courses/30/lessons/12909
 def solution(s):
     cnt = 0
     if s[0] == '(' and s[-1] == ')':
