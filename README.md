@@ -1,43 +1,29 @@
-# python-daily-archive
+# Python Daily Archive
 
-매일 파이썬 연습을 위한 코드 아카이브입니다. 주로 [프로그래머스](https://programmers.co.kr) 문제 풀이 코드를 정리합니다.
+A personal archive of Python practice, primarily featuring solutions to [Programmers](https://school.programmers.co.kr/) coding problems. Solutions are organized by problem level to make it easy to revisit approaches and track progress.
 
-## 📁 폴더 구조
+## Repository Structure
 
-```
-prac_python/
-├── Lv0/    # 프로그래머스 Lv.0 문제 풀이
-├── Lv1/    # 프로그래머스 Lv.1 문제 풀이
-├── Lv2/    # 프로그래머스 Lv.2 문제 풀이
-├── Lv3/    # 프로그래머스 Lv.3 문제 풀이
-├── test/   # 테스트 및 연습용 스크립트
+```text
+python-daily-archive/
+├── Lv0/       # Level 0 solutions
+├── Lv1/       # Level 1 solutions
+├── Lv2/       # Level 2 solutions
+├── Lv3/       # Level 3 solutions
+├── test/      # Small Python experiments
 └── README.md
 ```
 
-- **Lv(n)**: 프로그래머스 난이도별(Lv.0, Lv.1, ...) 문제 풀이 코드를 폴더로 구분해 저장합니다.
-- **test**: 문법 실험, 간단한 테스트 코드 등을 자유롭게 작성하는 공간입니다.
+Each solution is saved as a Python file named after the problem. Where available, a comment at the top links to the original problem.
 
-## 📝 문제 풀이 규칙
+## Using the Solutions
 
-- 파일명은 문제 번호 또는 문제 이름을 기준으로 작성합니다. (예: `연속된숫자의합.py`)
-- 각 풀이 파일 상단에 문제 링크와 필요할 경우 간단한 풀이 설명을 주석으로 남깁니다.
+The files are written in the `solution(...)` format used by Programmers. Open a file to read the approach or copy its function into the corresponding problem page to try it there. Running a file directly may produce no output because most files define a function without calling it.
 
-```python
-# https://school.programmers.co.kr/learn/courses/30/lessons/XXXXXX
-# 풀이 요약(필요시): ...
+The solutions use Python 3. No project-wide installation step is required.
 
-def solution(...):
-    ...
-```
+## Purpose
 
-## 🎯 목적
+This repository helps me practice Python regularly, keep a record of solved problems, and revisit problem-solving techniques while preparing for coding tests.
 
-- 파이썬 문법 및 알고리즘 감 유지
-- 프로그래머스 문제 풀이 기록 및 회고
-- 코딩 테스트 대비 연습
-
-## 🛠 실행 환경
-
-- Python 3.x
-
-*개인 학습용 저장소입니다.*
+> This is a personal study archive, not an official Programmers repository.
